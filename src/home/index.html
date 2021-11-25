@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/src/home/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -23,10 +25,7 @@
         <a href="#"><img src="/img/Logo.svg" alt="Logo Instagram"></a>
       </div>
       <div class="search">
-        <!--         <img src="" alt="Search Instagram">
- --> <input type="text" placeholder="Pesquisar">
-        <!--         <img src="" alt="Close Search">
- -->
+        <input type="text" placeholder="&#xf002;  Pesquisar">
       </div>
 
       <nav>
@@ -50,7 +49,7 @@
         </span>
         <span>
           <a href="#"><img class="profile" src="/img/profile.jpg" alt="Profile"></a>
-        </span>      
+        </span>
       </nav>
     </div>
 
@@ -60,45 +59,100 @@
 
     <div class="story">
       <span>
-        <a href="#"><img src="/img/profile.jpg" alt="Photo Story"></a>
+        <a class="active-story" href="#"><img src="/img/profile.jpg" alt="Photo Story"></a>
         <p>Your story</p>
       </span>
       <span>
-        <a href="#"><img src="" alt="Photo Story"></a>
-        <p>Your story</p>
+        <a class="active-story" href="#"><img src="/img/story/jayro-vivian.jpg" alt="Photo Story"></a>
+        <p>jayrochaves</p>
       </span>
       <span>
-        <a href="#"><img src="" alt="Photo Story"></a>
-        <p>Your story</p>
+        <a class="active-story" href="#"><img src="/img/story/gabi-dani.jpg" alt="Photo Story"></a>
+        <p>eugabriela...</p>
       </span>
       <span>
-        <a href="#"><img src="" alt="Photo Story"></a>
-        <p>Your story</p>
+        <a class="active-story" href="#"><img src="/img/story/luiz-paula.jpg" alt="Photo Story"></a>
+        <p>luishenriq...</p>
       </span>
       <span>
-        <a href="#"><img src="" alt="Photo Story"></a>
-        <p>Your story</p>
+        <a class="active-story" href="#"><img src="/img/story/nathi.jpg" alt="Photo Story"></a>
+        <p>nc.moreira...</p>
       </span>
       <span>
-        <a href="#"><img src="" alt="Photo Story"></a>
-        <p>Your story</p>
+        <a class="active-story" href="#"><img src="/img/story/jayro-vivian.jpg" alt="Photo Story"></a>
+        <p>viviandias97</p>
       </span>
     </div>
     <div class="post">
       <div class="card">
         <div class="card-title">
+          <div class="card-profile">
             <a href="">
-              <img src="/img/profile.jpg" alt="Profile Post">
-              <div class="info-profile">
-                <p>Sávio Pereira</p>
-                <p>São Paulo</p>
+              <div class="active-story">
+                <img src="/img/profile.jpg" alt="Profile Post">
               </div>
             </a>
-            <div class="card-options">
-              <a href="">
-                <img src="" alt="Options to Post">
-              </a>
-            </div>
+            <a href="">
+              <div class="info-profile">
+                <p class="login">savio.uckg</p>
+                <p class="localization">São Paulo</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-options">
+            <a href="">
+              <img src="/img/options.svg" alt="Options to Post">
+            </a>
+          </div>
+        </div>
+        <div class="card-body">
+          <img src="/img/profile.jpg" alt="Photo Post">
+          <!-- <span>
+            <img src="" alt="Next Photo">
+          </span> -->
+        </div>
+        <div class="card-action">
+          <span>
+            <img src="/img/like.svg" alt="Like">
+            <img src="/img/comment.svg" alt="Comment">
+            <img src="/img/direct.svg" alt="Share">
+          </span>
+          <!-- <span>
+            <img src="/img/options.svg" alt="Next">
+          </span> -->
+          <span>
+            <img src="/img/save.svg" alt="Save">
+          </span>
+        </div>
+        <div class="card-footer">
+          <a href="#"> <img src="" alt="Photo Profile"></a>
+          <p>Like to 80 people</p>
+        </div>
+      </div>
+    </div>
+    <div class="post">
+      <div class="card">
+        <div class="card-title">
+          <div class="card-profile">
+            <a href="">
+              <div class="active-story">
+                <img src="/img/profile.jpg" alt="Profile Post">
+              </div>
+            </a>
+            <a href="">
+              <div class="info-profile">
+                <p class="login">savio.uckg</p>
+                <p class="localization">São Paulo</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card-options">
+            <a href="">
+              <img src="/img/options.svg" alt="Options to Post">
+            </a>
+          </div>
         </div>
         <div class="card-body">
           <img src="/img/profile.jpg" alt="Photo Post">
@@ -127,7 +181,7 @@
     </div>
 
   </main>
-  
+
   <aside>
     <div class="suggestions">
       <div class="">
@@ -135,9 +189,6 @@
       </div>
     </div>
   </aside>
-  <footer>
-    <p>© 2021 INSTAGRAM FROM META</p>
-  </footer>
 
 </body>
 

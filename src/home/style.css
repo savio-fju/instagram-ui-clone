@@ -9,8 +9,10 @@ li {
 }
 
 body {
+  
   display: flex;
   justify-content: center;
+
   background: #b6b4b4;
   font-family: "Roboto", sans-serif;
 }
@@ -134,12 +136,66 @@ main {
   font-weight: 400;
 }
 
-.post {
-}
+.card {
+  margin-top: 3rem;
 
-aside,
-footer {
+  max-width: 40rem;
+  max-height: 40rem;
+
   display: flex;
   flex-direction: column;
-  position: relative;
+
+  background: white;
+  border: solid 1px gray;
+  border-radius: 0.2rem;
+}
+.card-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+}
+.card-title a {
+  display: flex;
+  gap: 0.8rem;
+}
+.card-title> a img {
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  border: solid 3px #d60d39;
+
+  clip-path: circle(50% at 50% 50%);
+}
+
+.card-body img{
+  width: 40rem;
+  height: 30rem;
+}
+
+.card-action{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.card-footer{
+  display: flex;
+}
+
+
+aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+aside .suggestions{
+  
 }

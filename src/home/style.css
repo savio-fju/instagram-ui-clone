@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background: #b6b4b4;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  border-bottom: solid 1px gray;
+  background: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 60rem;
+  height: 4em;
+
+  padding: 0 2rem;
+}
+
+.logo {
+  width: 40%;
+  display: flex;
+  align-items: left;
+}
+
+.logo a img {
+  align-items: center;
+  width: 103px;
+  height: 29px;
+}
+
+.search {
+  width: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search > input {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 0.3rem 1.2rem;
+
+  width: 18rem;
+  height: 1.2rem;
+
+  outline: none;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+  height: 2.2rem;
+}
+
+nav span {
+  align-items: center;
+}
+
+nav span a {
+  width: 2.9rem;
+  height: 2.9rem;
+
+  padding: 10px;
+}
+
+.profile {
+  width: 1.9rem;
+  height: 1.9rem;
+  clip-path: circle(50% at 50% 50%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.story {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 2px;
+  border: 1px solid gray;
+
+  width: 40rem;
+  height: 8rem;
+}
+
+aside, footer{
+  position: fixed;  
+}
